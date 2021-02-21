@@ -10,13 +10,13 @@
     <authors>Heiko B., Kevin R.</authors>
     <projectUrl>https://github.com/drasyl-overlay/drasyl</projectUrl>
     <iconUrl>https://docs.drasyl.org/assets/img/drasyl.png</iconUrl>
-    <copyright>2021 drasyl</copyright>
+    <copyright>drasyl</copyright>
     <licenseUrl>https://raw.githubusercontent.com/drasyl-overlay/drasyl/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/drasyl-overlay/drasyl</projectSourceUrl>
     <docsUrl>https://docs.drasyl.org/</docsUrl>
     <bugTrackerUrl>https://github.com/drasyl-overlay/drasyl/issues</bugTrackerUrl>
-    <tags>drasyl SPACE_SEPARATED</tags>
+    <tags>drasyl overlay-network p2p</tags>
     <summary>general-purpose overlay network framework for rapid development of distributed P2P applications</summary>
     <description>
       # drasyl
@@ -26,6 +26,7 @@
       With drasyl, boundaries between IP-based networks will be eliminated and secure communication channels between any peers will be provided. 
       Zero-configuration is required to use drasyl. Developers can run a new drasyl node without having to write configuration files or provide IP addresses of peers.
     </description>
+	<releaseNotes>None</releaseNotes>
     <dependencies>
       <dependency id="openjdk11" version="11.0.10.9" />
     </dependencies>
