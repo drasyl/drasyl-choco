@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>drasyl</id>
+    <version>0.3.0</version>
+    <packageSourceUrl>https://github.com/drasyl-overlay/drasyl-choco</packageSourceUrl>
+    <owners>Kevin R.</owners>
+    <title>drasyl</title>
+    <authors>Heiko B., Kevin R.</authors>
+    <projectUrl>https://github.com/drasyl-overlay/drasyl</projectUrl>
+    <iconUrl>https://docs.drasyl.org/assets/img/drasyl.png</iconUrl>
+    <copyright>2021 drasyl</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/drasyl-overlay/drasyl/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/drasyl-overlay/drasyl</projectSourceUrl>
+    <docsUrl>https://docs.drasyl.org/</docsUrl>
+    <bugTrackerUrl>https://github.com/drasyl-overlay/drasyl/issues</bugTrackerUrl>
+    <tags>drasyl SPACE_SEPARATED</tags>
+    <summary>general-purpose overlay network framework for rapid development of distributed P2P applications</summary>
+    <description>
+      # drasyl
+      drasyl is a general-purpose overlay network framework for rapid development of distributed P2P applications.
+      
+      By using drasyl developers can fully concentrate on creating distributed applications. 
+      With drasyl, boundaries between IP-based networks will be eliminated and secure communication channels between any peers will be provided. 
+      Zero-configuration is required to use drasyl. Developers can run a new drasyl node without having to write configuration files or provide IP addresses of peers.
+    </description>
+    <dependencies>
+      <dependency id="openjdk11" version="11.0.10.9" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
