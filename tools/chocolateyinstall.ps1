@@ -5,8 +5,8 @@ $ErrorActionPreference = 'Stop';
 $packageName    = $env:ChocolateyPackageName
 $packageVersion = $env:ChocolateyPackageVersion
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url            = 'https://github.com/drasyl-overlay/drasyl/releases/download/v0.3.0/drasyl-0.3.0.zip'
-$checksum       = 'A9BB1C28729DBE5C672BA567CD22E91BE570A7E753346C5311DAD90EF7F4D953'
+$url            = "https://github.com/drasyl-overlay/drasyl/releases/download/v$($packageVersion)/drasyl-$($packageVersion).zip"
+$checksum       = (Invoke-RestMethod "$($url).sha256").Trim()
 $checksumType   = 'sha256'
 $drasylHome    = Join-Path $toolsDir "drasyl-$($packageVersion)"
 
