@@ -19,4 +19,4 @@ Install-ChocolateyEnvironmentVariable -variableName 'DRASYL_HOME' -variableValue
 
 Install-ChocolateyPath "`%DRASYL_HOME`%\bin" 'Machine'
 
-Write-Warning "You must start a new prompt, or re-read the environment for the drasyl-cli to be available in your command line environment."
+Write-Warning "You must start a new prompt, or re-read the environment for the drasyl command to be available in your command line environment."
