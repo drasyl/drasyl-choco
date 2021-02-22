@@ -15,7 +15,7 @@ Install-ChocolateyZipPackage $packageName $url $toolsDir -checksum $checksum -ch
 # Remove Unix file
 Remove-Item "$($drasylHome)\bin\drasyl"
 
-Install-ChocolateyEnvironmentVariable -variableName 'DRASYL_HOME' -variableValue $drasylHome -variableType 'Machine'
+Install-ChocolateyEnvironmentVariable 'DRASYL_HOME' $drasylHome 'Machine'
 
 Install-ChocolateyPath "`%DRASYL_HOME`%\bin" 'Machine'
 
