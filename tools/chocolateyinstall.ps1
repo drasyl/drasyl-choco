@@ -6,9 +6,9 @@ $packageName    = $env:ChocolateyPackageName
 $packageVersion = $env:ChocolateyPackageVersion
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url            = "https://github.com/drasyl-overlay/drasyl/releases/download/v$($packageVersion)/drasyl-$($packageVersion).zip"
-$checksum       = (Invoke-RestMethod "$($url).sha256").Trim()
+$checksum       = "214dd541367c383130ee99ed101f7d02af607a8a5fbd20db6b0a96d2cb99c45e"
 $checksumType   = 'sha256'
-$drasylHome    = Join-Path $toolsDir "drasyl-$($packageVersion)"
+$drasylHome     = Join-Path $toolsDir "drasyl-$($packageVersion)"
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir -checksum $checksum -checksumType $checksumType
 
