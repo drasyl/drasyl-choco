@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>drasyl</id>
-    <version>0.4.1</version>
+    <version>0.5.0</version>
     <packageSourceUrl>https://github.com/drasyl-overlay/drasyl-choco</packageSourceUrl>
     <owners>Kevin R.</owners>
     <title>drasyl</title>
@@ -19,6 +19,8 @@
     <tags>drasyl overlay-network p2p</tags>
     <summary>general-purpose overlay network framework for rapid development of distributed P2P applications</summary>
 	<description>
+**Note: This package comes without any Java dependency. You have to install a JRE or JDK by yourself.**	
+
 drasyl is a general-purpose overlay network framework for rapid development of distributed P2P
 applications.
 
@@ -52,12 +54,9 @@ drasyl node without having to write configuration files or provide IP addresses 
 
 ## License
 
-This is free software under the terms of the [GNU Lesser General Public License v3.0](LICENSE)
+This is free software under the terms of the [MIT License](LICENSE)
 </description>
 	<releaseNotes>None</releaseNotes>
-    <dependencies>
-      <dependency id="openjdk11" version="11.0.10.9" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
