@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName    = $env:ChocolateyPackageName
 $packageVersion = $env:ChocolateyPackagVersion
-$zipName = "drasyl-$($packageVersion).zip"
+$zipName = "drasyl-$($packageVersion)-windows-amd64.zip"
 
 Uninstall-ChocolateyZipPackage $packageName $zipName
 
