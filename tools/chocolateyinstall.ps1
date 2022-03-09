@@ -6,7 +6,7 @@ $packageName    = $env:ChocolateyPackageName
 $packageVersion = $env:ChocolateyPackageVersion
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url            = "https://github.com/drasyl-overlay/drasyl/releases/download/v$($packageVersion)/drasyl-$($packageVersion)-windows-amd64.zip"
-$checksum       = "547a95be3f0bbcbb98f171d319816fdd934d12ac808061c1e4809953470d4845"
+$checksum       = \"96858605F50350041F5E332863BB3474329AACF2FB710C38AB77AB600055A2D0\"
 $checksumType   = 'sha256'
 $drasylHome     = Join-Path $toolsDir "drasyl-$($packageVersion)-windows-amd64"
 
