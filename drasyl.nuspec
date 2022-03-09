@@ -19,6 +19,8 @@
     <tags>drasyl overlay-network p2p</tags>
     <summary>general-purpose overlay network framework for rapid development of distributed P2P applications. This package contains a pre-packed drasyl Node. It can be run via the command line interface.</summary>
 	<description>
+**Note: This package comes without any Java dependency. You have to install a JRE or JDK by yourself.** 
+
 drasyl is a general-purpose overlay network framework for rapid development of distributed P2P
 applications.
 
