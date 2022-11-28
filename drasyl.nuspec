@@ -4,18 +4,18 @@
   <metadata>
     <id>drasyl</id>
     <version>0.8.0</version>
-    <packageSourceUrl>https://github.com/drasyl-overlay/drasyl-choco</packageSourceUrl>
+    <packageSourceUrl>https://github.com/drasyl/drasyl-choco</packageSourceUrl>
     <owners>Kevin R.</owners>
     <title>drasyl</title>
     <authors>Heiko B., Kevin R.</authors>
     <projectUrl>https://drasyl.org</projectUrl>
     <iconUrl>https://docs.drasyl.org/assets/img/drasyl.svg</iconUrl>
     <copyright>drasyl</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/drasyl-overlay/drasyl/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/drasyl/drasyl/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/drasyl-overlay/drasyl</projectSourceUrl>
+    <projectSourceUrl>https://github.com/drasyl/drasyl</projectSourceUrl>
     <docsUrl>https://docs.drasyl.org/</docsUrl>
-    <bugTrackerUrl>https://github.com/drasyl-overlay/drasyl/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/drasyl/drasyl/issues</bugTrackerUrl>
     <tags>drasyl overlay-network p2p</tags>
     <summary>general-purpose overlay network framework for rapid development of distributed P2P applications. This package contains a pre-packed drasyl Node. It can be run via the command line interface.</summary>
 	<description>
@@ -48,7 +48,7 @@ drasyl node without having to write configuration files or provide IP addresses 
 
 - [Command Line Interface](https://docs.drasyl.org/cli/)
 - [Configuration](https://docs.drasyl.org/configuration/)
-- [Chat](https://gitter.im/drasyl-overlay/drasyl)
+- [Discord](https://discord.gg/2tcZPy7BCu)
 
 ## License
 
