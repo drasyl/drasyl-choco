@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>drasyl</id>
-    <version>0.8.0</version>
+    <version>0.9.0</version>
     <packageSourceUrl>https://github.com/drasyl/drasyl-choco</packageSourceUrl>
     <owners>Kevin R.</owners>
     <title>drasyl</title>
     <authors>Heiko B., Kevin R.</authors>
     <projectUrl>https://drasyl.org</projectUrl>
-    <iconUrl>https://docs.drasyl.org/assets/img/drasyl.svg</iconUrl>
+    <iconUrl>https://github.com/drasyl/docs.drasyl.org/blob/master/static/img/logo.svg</iconUrl>
     <copyright>drasyl</copyright>
     <licenseUrl>https://raw.githubusercontent.com/drasyl/drasyl/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
